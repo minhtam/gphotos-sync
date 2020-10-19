@@ -25,4 +25,4 @@ VOLUME /config
 
 VOLUME /storage
 
-ENTRYPOINT [ "gphotos-sync" ]
+ENTRYPOINT [ "gphotos-sync", "/storage" ]
